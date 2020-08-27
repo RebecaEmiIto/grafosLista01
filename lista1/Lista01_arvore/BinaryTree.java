@@ -34,6 +34,7 @@ public class BinaryTree {
                         currNode = currNode.getLeft();
                     }
                 }else{
+                    //totalElements--;
                     if(currNode.getRight() == null){
                         currNode.setRight(new Node(_value));
                         break;
